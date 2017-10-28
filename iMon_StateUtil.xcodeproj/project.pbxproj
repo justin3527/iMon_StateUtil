@@ -7,21 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A47E5D91F37113A0010BA8B /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A47E5D81F37113A0010BA8B /* Common.swift */; };
+		4A5136321F36F8B00011E5D3 /* BackgroundTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5136311F36F8B00011E5D3 /* BackgroundTask.swift */; };
+		4A5136341F36FA050011E5D3 /* 3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4A5136331F36FA050011E5D3 /* 3.wav */; };
+		4A5136361F3703330011E5D3 /* SaveLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5136351F3703330011E5D3 /* SaveLog.swift */; };
 		4AA197A51F15E5BF00568862 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA197A41F15E5BF00568862 /* AppDelegate.swift */; };
-		4AA197A71F15E5BF00568862 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA197A61F15E5BF00568862 /* ViewController.swift */; };
+		4AA197A71F15E5BF00568862 /* ResourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA197A61F15E5BF00568862 /* ResourceViewController.swift */; };
 		4AA197AA1F15E5BF00568862 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AA197A81F15E5BF00568862 /* Main.storyboard */; };
 		4AA197AC1F15E5BF00568862 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AA197AB1F15E5BF00568862 /* Assets.xcassets */; };
 		4AA197AF1F15E5BF00568862 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AA197AD1F15E5BF00568862 /* LaunchScreen.storyboard */; };
+		4AA197B91F15E5FF00568862 /* iMonUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA197B81F15E5FF00568862 /* iMonUtils.m */; };
+		4AA197C11F247B4400568862 /* ChartsGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA197C01F247B4400568862 /* ChartsGraph.swift */; };
+		4AA197C31F248FD100568862 /* AllocatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA197C21F248FD100568862 /* AllocatorViewController.swift */; };
+		4AA197CA1F2DA91F00568862 /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AA197C51F2DA91F00568862 /* add.png */; };
+		4AA197CB1F2DA91F00568862 /* mynus.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AA197C61F2DA91F00568862 /* mynus.png */; };
+		4AA197CC1F2DA91F00568862 /* mynus2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AA197C71F2DA91F00568862 /* mynus2.png */; };
+		4AA197CD1F2DA91F00568862 /* refresh2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AA197C81F2DA91F00568862 /* refresh2.png */; };
+		4AA197CE1F2DA91F00568862 /* save.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AA197C91F2DA91F00568862 /* save.png */; };
+		4AA197D21F2DE14800568862 /* MyTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA197D11F2DE14800568862 /* MyTabBarViewController.swift */; };
+		4AA197D51F2DF09300568862 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AA197D31F2DF09300568862 /* play.png */; };
+		4AA197D61F2DF09300568862 /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AA197D41F2DF09300568862 /* stop.png */; };
+		4AA197D81F2DF13A00568862 /* RecordLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA197D71F2DF13A00568862 /* RecordLogViewController.swift */; };
+		4AA4D99D1F3EF91B0004C16C /* SaveFileListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA4D99C1F3EF91B0004C16C /* SaveFileListViewController.swift */; };
+		4AA4D99F1F3EFA2D0004C16C /* SaveFileList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA4D99E1F3EFA2D0004C16C /* SaveFileList.swift */; };
+		4AAE8AB71F39D8AC001B43AD /* ResourceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAE8AB61F39D8AC001B43AD /* ResourceInfo.swift */; };
+		4B3BEA8872E70B2466620AB1 /* Pods_iMon_StateUtil.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 522EDD41EE2ABBF994BA1212 /* Pods_iMon_StateUtil.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F5802D48940C004B68BC440 /* Pods-iMon_StateUtil.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iMon_StateUtil.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iMon_StateUtil/Pods-iMon_StateUtil.debug.xcconfig"; sourceTree = "<group>"; };
+		4A47E5D81F37113A0010BA8B /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		4A5136311F36F8B00011E5D3 /* BackgroundTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundTask.swift; sourceTree = "<group>"; };
+		4A5136331F36FA050011E5D3 /* 3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = 3.wav; path = ../../PageAudit/PageAudit/3.wav; sourceTree = "<group>"; };
+		4A5136351F3703330011E5D3 /* SaveLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaveLog.swift; sourceTree = "<group>"; };
 		4AA197A11F15E5BF00568862 /* iMon_StateUtil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMon_StateUtil.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AA197A41F15E5BF00568862 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4AA197A61F15E5BF00568862 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4AA197A61F15E5BF00568862 /* ResourceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceViewController.swift; sourceTree = "<group>"; };
 		4AA197A91F15E5BF00568862 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4AA197AB1F15E5BF00568862 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4AA197AE1F15E5BF00568862 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4AA197B01F15E5BF00568862 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AA197B71F15E5FF00568862 /* iMonUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iMonUtils.h; sourceTree = "<group>"; };
+		4AA197B81F15E5FF00568862 /* iMonUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iMonUtils.m; sourceTree = "<group>"; };
+		4AA197C01F247B4400568862 /* ChartsGraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartsGraph.swift; sourceTree = "<group>"; };
+		4AA197C21F248FD100568862 /* AllocatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllocatorViewController.swift; sourceTree = "<group>"; };
+		4AA197C51F2DA91F00568862 /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
+		4AA197C61F2DA91F00568862 /* mynus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mynus.png; sourceTree = "<group>"; };
+		4AA197C71F2DA91F00568862 /* mynus2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mynus2.png; sourceTree = "<group>"; };
+		4AA197C81F2DA91F00568862 /* refresh2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = refresh2.png; sourceTree = "<group>"; };
+		4AA197C91F2DA91F00568862 /* save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = save.png; sourceTree = "<group>"; };
+		4AA197D11F2DE14800568862 /* MyTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTabBarViewController.swift; sourceTree = "<group>"; };
+		4AA197D31F2DF09300568862 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		4AA197D41F2DF09300568862 /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop.png; sourceTree = "<group>"; };
+		4AA197D71F2DF13A00568862 /* RecordLogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordLogViewController.swift; sourceTree = "<group>"; };
+		4AA4D99C1F3EF91B0004C16C /* SaveFileListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaveFileListViewController.swift; sourceTree = "<group>"; };
+		4AA4D99E1F3EFA2D0004C16C /* SaveFileList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaveFileList.swift; sourceTree = "<group>"; };
+		4AAE8AB61F39D8AC001B43AD /* ResourceInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResourceInfo.swift; sourceTree = "<group>"; };
+		522EDD41EE2ABBF994BA1212 /* Pods_iMon_StateUtil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iMon_StateUtil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F844A8D0844EDD7217E7A2CD /* Pods-iMon_StateUtil.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iMon_StateUtil.release.xcconfig"; path = "Pods/Target Support Files/Pods-iMon_StateUtil/Pods-iMon_StateUtil.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +72,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B3BEA8872E70B2466620AB1 /* Pods_iMon_StateUtil.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		47E2CAEE4DF556174F43D9EF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F5802D48940C004B68BC440 /* Pods-iMon_StateUtil.debug.xcconfig */,
+				F844A8D0844EDD7217E7A2CD /* Pods-iMon_StateUtil.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		4AA197981F15E5BF00568862 = {
 			isa = PBXGroup;
 			children = (
 				4AA197A31F15E5BF00568862 /* iMon_StateUtil */,
 				4AA197A21F15E5BF00568862 /* Products */,
+				47E2CAEE4DF556174F43D9EF /* Pods */,
+				F9DAD43C533B689CD53844A8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +109,74 @@
 		4AA197A31F15E5BF00568862 /* iMon_StateUtil */ = {
 			isa = PBXGroup;
 			children = (
+				4AAE8AB51F39D88B001B43AD /* Model */,
+				4AA197D01F2DA96000568862 /* ViewControllers */,
+				4AA197CF1F2DA92D00568862 /* Util */,
+				4AA197C41F2DA8F200568862 /* resourse */,
 				4AA197A41F15E5BF00568862 /* AppDelegate.swift */,
-				4AA197A61F15E5BF00568862 /* ViewController.swift */,
 				4AA197A81F15E5BF00568862 /* Main.storyboard */,
 				4AA197AB1F15E5BF00568862 /* Assets.xcassets */,
 				4AA197AD1F15E5BF00568862 /* LaunchScreen.storyboard */,
 				4AA197B01F15E5BF00568862 /* Info.plist */,
 			);
 			path = iMon_StateUtil;
+			sourceTree = "<group>";
+		};
+		4AA197C41F2DA8F200568862 /* resourse */ = {
+			isa = PBXGroup;
+			children = (
+				4A5136331F36FA050011E5D3 /* 3.wav */,
+				4AA197D31F2DF09300568862 /* play.png */,
+				4AA197D41F2DF09300568862 /* stop.png */,
+				4AA197C51F2DA91F00568862 /* add.png */,
+				4AA197C61F2DA91F00568862 /* mynus.png */,
+				4AA197C71F2DA91F00568862 /* mynus2.png */,
+				4AA197C81F2DA91F00568862 /* refresh2.png */,
+				4AA197C91F2DA91F00568862 /* save.png */,
+			);
+			name = resourse;
+			sourceTree = "<group>";
+		};
+		4AA197CF1F2DA92D00568862 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				4AA197C01F247B4400568862 /* ChartsGraph.swift */,
+				4AA197B71F15E5FF00568862 /* iMonUtils.h */,
+				4AA197B81F15E5FF00568862 /* iMonUtils.m */,
+				4A5136311F36F8B00011E5D3 /* BackgroundTask.swift */,
+				4A5136351F3703330011E5D3 /* SaveLog.swift */,
+				4A47E5D81F37113A0010BA8B /* Common.swift */,
+				4AA4D99E1F3EFA2D0004C16C /* SaveFileList.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		4AA197D01F2DA96000568862 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4AA197A61F15E5BF00568862 /* ResourceViewController.swift */,
+				4AA197C21F248FD100568862 /* AllocatorViewController.swift */,
+				4AA197D11F2DE14800568862 /* MyTabBarViewController.swift */,
+				4AA197D71F2DF13A00568862 /* RecordLogViewController.swift */,
+				4AA4D99C1F3EF91B0004C16C /* SaveFileListViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4AAE8AB51F39D88B001B43AD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4AAE8AB61F39D8AC001B43AD /* ResourceInfo.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F9DAD43C533B689CD53844A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				522EDD41EE2ABBF994BA1212 /* Pods_iMon_StateUtil.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +186,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4AA197B31F15E5BF00568862 /* Build configuration list for PBXNativeTarget "iMon_StateUtil" */;
 			buildPhases = (
+				6CE31AF570AF29F81DE58BCC /* [CP] Check Pods Manifest.lock */,
 				4AA1979D1F15E5BF00568862 /* Sources */,
 				4AA1979E1F15E5BF00568862 /* Frameworks */,
 				4AA1979F1F15E5BF00568862 /* Resources */,
+				6624BB6318822D3C6F672B85 /* [CP] Embed Pods Frameworks */,
+				CB8A7BFA1969A9C1C7939C12 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -97,7 +215,13 @@
 					4AA197A01F15E5BF00568862 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 3LKUPW7U8G;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -124,21 +248,88 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A5136341F36FA050011E5D3 /* 3.wav in Resources */,
+				4AA197D61F2DF09300568862 /* stop.png in Resources */,
 				4AA197AF1F15E5BF00568862 /* LaunchScreen.storyboard in Resources */,
 				4AA197AC1F15E5BF00568862 /* Assets.xcassets in Resources */,
+				4AA197CE1F2DA91F00568862 /* save.png in Resources */,
 				4AA197AA1F15E5BF00568862 /* Main.storyboard in Resources */,
+				4AA197CB1F2DA91F00568862 /* mynus.png in Resources */,
+				4AA197CA1F2DA91F00568862 /* add.png in Resources */,
+				4AA197CD1F2DA91F00568862 /* refresh2.png in Resources */,
+				4AA197D51F2DF09300568862 /* play.png in Resources */,
+				4AA197CC1F2DA91F00568862 /* mynus2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6624BB6318822D3C6F672B85 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iMon_StateUtil/Pods-iMon_StateUtil-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6CE31AF570AF29F81DE58BCC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CB8A7BFA1969A9C1C7939C12 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iMon_StateUtil/Pods-iMon_StateUtil-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4AA1979D1F15E5BF00568862 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AA197A71F15E5BF00568862 /* ViewController.swift in Sources */,
+				4AA197D81F2DF13A00568862 /* RecordLogViewController.swift in Sources */,
+				4AAE8AB71F39D8AC001B43AD /* ResourceInfo.swift in Sources */,
+				4AA197D21F2DE14800568862 /* MyTabBarViewController.swift in Sources */,
+				4AA197C31F248FD100568862 /* AllocatorViewController.swift in Sources */,
+				4A5136321F36F8B00011E5D3 /* BackgroundTask.swift in Sources */,
+				4AA197A71F15E5BF00568862 /* ResourceViewController.swift in Sources */,
+				4AA197B91F15E5FF00568862 /* iMonUtils.m in Sources */,
 				4AA197A51F15E5BF00568862 /* AppDelegate.swift in Sources */,
+				4A5136361F3703330011E5D3 /* SaveLog.swift in Sources */,
+				4AA4D99F1F3EFA2D0004C16C /* SaveFileList.swift in Sources */,
+				4A47E5D91F37113A0010BA8B /* Common.swift in Sources */,
+				4AA4D99D1F3EF91B0004C16C /* SaveFileListViewController.swift in Sources */,
+				4AA197C11F247B4400568862 /* ChartsGraph.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,26 +450,35 @@
 		};
 		4AA197B41F15E5BF00568862 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F5802D48940C004B68BC440 /* Pods-iMon_StateUtil.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 3LKUPW7U8G;
 				INFOPLIST_FILE = iMon_StateUtil/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.study.iMon-StateUtil";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iMon_StateUtil/iMon_StateUtil-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		4AA197B51F15E5BF00568862 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F844A8D0844EDD7217E7A2CD /* Pods-iMon_StateUtil.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 3LKUPW7U8G;
 				INFOPLIST_FILE = iMon_StateUtil/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.study.iMon-StateUtil";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iMon_StateUtil/iMon_StateUtil-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -302,6 +502,7 @@
 				4AA197B51F15E5BF00568862 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
